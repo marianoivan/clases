@@ -1,0 +1,143 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.caja-flex{
+    background: violet;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.caja-flex p {
+    margin: 0;
+}
+
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    gap:10px ;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 250px;
+    background: sandybrown;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.wrap2{
+    gap: 10px;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 15px;
+    }
+
+    .flex-end{
+        display: flex;
+        justify-content: end;
+        gap: 10px;
+    }
+
+    .flex-center{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+    }
+
+    .space-between{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        background: red;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 600px;
+        border-radius: 1rem;
+    }
+
+    .space-around{
+        display: flex;
+        justify-content: space-around;
+        gap:10px;
+    }
+
+    /*aling itemns*/
+
+    .aling-start{
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 50px;
+    }
+
+    .aling-end{
+        display: flex;
+        align-items: flex-end;
+        background: gray;
+        height: 500px;
+        width: 400px;
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+    .aling-center{
+        display:flex;
+        align-items: center;
+        gap: 10px;
+        width: 400px;
+        height: 500px;
+        border-radius: 10px;
+        margin: 20px;
+        background: gray;
+    }
+
+    .aling-strech{
+        display: flex;
+        align-items: stretch;
+        gap: 10px;
+        height: 500px;
+        width: 400px;
+        border-radius: 10px;
+        margin: 20px;
+        background: gray;
+    }
+    
+    .content-between{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-content: space-between;
+        background: gray;
+        width: 300px;
+        height: 400px;
+    }
